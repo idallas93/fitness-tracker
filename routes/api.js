@@ -14,7 +14,14 @@ router.get("/api/workouts", (req, res) => {
 
 // view range of workouts
 router.get("/api/workouts", (req, res) => {
-    
+    Workout.find({}).limit(5)
+        .then(dbWorkouts => {
+            console.log(dbWorkouts)
+            res.json(dbWorkouts);
+        })
+        .catch(err => {
+            res.json(err);
+        }); 
 });
 
 // add workouts 
