@@ -5,10 +5,10 @@ This is a workout tracking application. This app includes a Mongo database with 
 [Deployed Heroku App](https://fitness-application-idallas93.herokuapp.com/ "Deployed Heroku App")
 
 ## Images of working Application
-Inline-style: 
+### Home page
 ![Image One](./assets/one.png "Image One")
-
-![Image Two](./assets/two.png"Image Two")
+### Add an exercise
+![Image Two](./assets/two.png "Image Two")
 
 
 
